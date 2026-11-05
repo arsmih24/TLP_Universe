@@ -1,0 +1,1 @@
+![[Sozoist Confederation.png|400]]

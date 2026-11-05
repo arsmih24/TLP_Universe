@@ -1,0 +1,58 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"Ордена и Фракции\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:Идеологии  ",
+      "color": {
+        "a": 1,
+        "rgb": 12362751
+      }
+    },
+    {
+      "query": "path:\"Мир и таймлайн\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431425
+      }
+    },
+    {
+      "query": "path:Государства  ",
+      "color": {
+        "a": 1,
+        "rgb": 16766208
+      }
+    },
+    {
+      "query": "path:Корпорации  ",
+      "color": {
+        "a": 1,
+        "rgb": 2375167
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 0.989660541887263,
+  "lineSizeMultiplier": 1.00155925155925,
+  "collapse-forces": true,
+  "centerStrength": 0.518713248970312,
+  "repelStrength": 10,
+  "linkStrength": 1,
+  "linkDistance": 250,
+  "scale": 1.2414543899483015,
+  "close": true
+}

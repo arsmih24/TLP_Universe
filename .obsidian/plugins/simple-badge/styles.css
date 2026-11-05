@@ -1,0 +1,304 @@
+.badge {
+    display: inline-block;
+    padding: 0.08em 0.42em;
+    border-radius: var(--simple-badge-border-radius, 4px);
+    font-size: var(--simple-badge-font-size, 72%);
+    font-weight: 500;
+    line-height: 1.35;
+    border: 1px solid var(--background-modifier-border);
+    background: var(--background-secondary);
+    color: var(--text-normal);
+    vertical-align: middle;
+}
+
+.badge-blue {
+    color: var(--color-blue);
+    background: color-mix(in oklch, var(--color-blue) 15%, transparent);
+}
+
+.badge-green {
+    color: var(--color-green);
+    background: color-mix(in oklch, var(--color-green) 15%, transparent);
+}
+
+.badge-purple {
+    color: var(--color-purple);
+    background: color-mix(in oklch, var(--color-purple) 15%, transparent);
+}
+
+.badge-red {
+    color: var(--color-red);
+    background: color-mix(in oklch, var(--color-red) 15%, transparent);
+}
+
+.badge-orange {
+    color: var(--color-orange);
+    background: color-mix(in oklch, var(--color-orange) 15%, transparent);
+}
+
+.badge-yellow {
+    color: var(--color-yellow);
+    background: color-mix(in oklch, var(--color-yellow) 15%, transparent);
+}
+
+.badge-cyan {
+    color: var(--color-cyan);
+    background: color-mix(in oklch, var(--color-cyan) 15%, transparent);
+}
+
+.badge-pink {
+    color: var(--color-pink);
+    background: color-mix(in oklch, var(--color-pink) 15%, transparent);
+}
+
+.badge-custom {
+    color: var(--simple-badge-color, var(--text-normal));
+    background: color-mix(in oklch, var(--simple-badge-color, var(--text-normal)) 15%, transparent);
+}
+
+.simple-badge-modal {
+    width: min(760px, 94vw);
+}
+
+.simple-badge-appearance-control .setting-item-control { flex-wrap: wrap; gap: 8px; }
+.simple-badge-appearance-control input[type="number"] { width: 72px; }
+.simple-badge-appearance-control input[aria-invalid="true"] { border-color: var(--text-error); }
+.simple-badge-appearance-preview { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+.simple-badge-original-corners .simple-badge-percentage { display: none; }
+
+.simple-badge-insert-main {
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+    gap: 28px;
+    padding-bottom: 20px;
+}
+
+.simple-badge-insert-main h3 {
+    margin: 0 0 14px;
+    font-size: var(--font-ui-medium);
+}
+
+.simple-badge-preset-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    align-content: start;
+}
+
+.simple-badge-preset-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-width: 0;
+    min-height: 44px;
+}
+
+.simple-badge-preview {
+    font-size: var(--font-text-size, 16px);
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+.simple-badge-number {
+    flex: 0 0 28px;
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 50%;
+    box-shadow: none;
+    font-variant-numeric: tabular-nums;
+}
+
+.simple-badge-number[aria-pressed="true"] {
+    color: var(--text-on-accent);
+    background: var(--interactive-accent);
+    border-color: var(--interactive-accent);
+}
+
+.simple-badge-form fieldset {
+    min-width: 0;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.simple-badge-field {
+    display: grid;
+    gap: 6px;
+    margin-bottom: 12px;
+}
+
+.simple-badge-field input {
+    width: 100%;
+    min-width: 0;
+}
+
+.simple-badge-colors {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 6px;
+    margin: 6px 0 14px;
+}
+
+.simple-badge-color-modes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 6px 0 12px;
+}
+
+.simple-badge-color-modes button[aria-pressed="true"] {
+    color: var(--text-on-accent);
+    background: var(--interactive-accent);
+}
+
+.simple-badge-colors button {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    height: auto;
+    min-height: 34px;
+    padding: 6px 4px;
+    font-size: var(--font-ui-smaller);
+    white-space: normal;
+}
+
+.simple-badge-colors button[aria-pressed="true"] {
+    box-shadow: inset 0 0 0 2px var(--interactive-accent);
+}
+
+.simple-badge-color-swatch {
+    flex: 0 0 12px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: currentColor;
+}
+
+.simple-badge-color-check { visibility: hidden; }
+.simple-badge-colors button[aria-pressed="true"] .simple-badge-color-check { visibility: visible; }
+.simple-badge-color-picker [hidden] { display: none; }
+
+.simple-badge-custom-color {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.simple-badge-native-color { display: flex; }
+.simple-badge-native-color input[type="color"] { width: 38px; height: 34px; cursor: pointer; }
+.simple-badge-hex-field { flex: 1; min-width: 0; }
+.simple-badge-hex-field input { width: 100%; min-width: 0; font-family: var(--font-monospace); }
+.simple-badge-hex-field input[aria-invalid="true"] { border-color: var(--text-error); }
+.simple-badge-color-error { color: var(--text-error); font-size: var(--font-ui-small); margin-top: 6px; }
+.simple-badge-color-error:empty { display: none; }
+
+.simple-badge-visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+    border: 0;
+}
+
+.simple-badge-form-preview,
+.simple-badge-save-option {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin: 12px 0;
+}
+
+.simple-badge-form-status,
+.simple-badge-message {
+    margin-top: 10px;
+    font-size: var(--font-ui-small);
+    overflow-wrap: anywhere;
+}
+
+.simple-badge-form-status:empty,
+.simple-badge-message:empty {
+    display: none;
+}
+
+.simple-badge-form-status.is-error,
+.simple-badge-message.is-error {
+    color: var(--text-error);
+}
+
+.simple-badge-muted {
+    color: var(--text-muted);
+    font-size: var(--font-ui-small);
+}
+
+.simple-badge-selection {
+    border-top: 1px solid var(--background-modifier-border);
+    padding-top: 14px;
+}
+
+.simple-badge-selection-heading,
+.simple-badge-queue {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.simple-badge-chip {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    height: auto;
+    min-height: 32px;
+    max-width: 100%;
+    padding: 5px 8px;
+    white-space: normal;
+}
+
+.simple-badge-footer {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 18px;
+}
+
+.simple-badge-footer [hidden] { display: none; }
+
+.simple-badge-import-modal { width: min(680px, 94vw); }
+.simple-badge-span-input {
+    width: 100%;
+    min-height: 160px;
+    resize: vertical;
+    font-family: var(--font-monospace);
+    font-size: var(--font-ui-small);
+}
+.simple-badge-span-input[aria-invalid="true"] { border-color: var(--text-error); }
+.simple-badge-import-preview {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    max-height: 200px;
+    overflow-y: auto;
+    overflow-wrap: anywhere;
+    margin-top: 12px;
+    font-size: var(--font-text-size, 16px);
+}
+.simple-badge-import-preview .badge { max-width: 100%; }
+.simple-badge-import-preview:empty { display: none; }
+
+@media (max-width: 620px) {
+    .simple-badge-insert-main { grid-template-columns: minmax(0, 1fr); gap: 20px; }
+}
+
+@media (pointer: coarse) {
+    .simple-badge-number { flex-basis: 44px; width: 44px; height: 44px; }
+}
