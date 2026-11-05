@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Идеологии/Katalarchism (Каталархизм).md",
+                "file": "Идеологии/Efevretism (Эфевретизм).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Katalarchism (Каталархизм)"
+              "title": "Efevretism (Эфевретизм)"
             }
           }
         ],
@@ -185,8 +185,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ],
@@ -211,6 +211,8 @@
   },
   "active": "0a23069c4fa6c29c",
   "lastOpenFiles": [
+    "Идеологии/Filassoism (Филассоизм).md",
+    "Идеологии/Efevretism (Эфевретизм).md",
     "Идеологии/Kosmorraphism (Косморрафизм).md",
     "Идеологии/Sozoism (Созоизм).md",
     "Идеологии/Katalarchism (Каталархизм).md",
@@ -221,14 +223,12 @@
     "Ордена и Фракции/Gammakeepers (Гаммакиперы).md",
     "Ордена и Фракции/Sozoits (Созоиты).md",
     "Государства/Sozoist Confederation (Созоитская Конфедерация).md",
-    "Идеологии/Efevretism (Эфевретизм).md",
     "Корпорации/Левиафан-Корпорации/Nupdate Corp..md",
     "Мир и таймлайн/Мир/Genesis - Мега экзопланета.md",
     "Мир и таймлайн/Мировой Таймлайн и единицы времени.md",
     "_resources/Sozoist Confederation.png",
     "Идеологии/Список Идеологий.md",
     "Корпорации/Корпорации (Список).md",
-    "Идеологии/Filassoism (Филассоизм).md",
     "_resources/Pasted image 20261104223021.png",
     "_resources/Logo_Voidkeeper_basecolor.png",
     "Падение империи[[Мировой Таймлайн и единицы времени.md",
